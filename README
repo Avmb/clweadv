@@ -1,0 +1,20 @@
+Code for "Towards cross-lingual distributed representations without parallel text trained with adversarial autoencoders"
+
+Antonio Valerio Miceli Barone
+
+Requires:
+
+Theano http://deeplearning.net/software/theano/
+Lasagne https://lasagne.readthedocs.io/en/latest/
+scikit-learn http://scikit-learn.org/stable/
+Word embeddings for two languages in word2vec https://code.google.com/archive/p/word2vec/ text format
+
+This package includes code to run various experiments with different variants of the approach presented in the paper. The best looking results were obtained with the adversarial autoencoder with Resnet discriminator, cosine distance reconstruction loss and cosine distance regularization:
+
+English to German: emb_lin_adversarial_resnet_cos_autoenc_cos_en2de.py
+German to English: emb_lin_adversarial_resnet_cos_autoenc_cos_de2en.py
+English to Italian: emb_lin_adversarial_resnet_cos_autoenc_cos_en2it.py
+
+This code is distributed under the GNU LGPLv3.
+
+
