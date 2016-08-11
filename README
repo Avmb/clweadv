@@ -2,6 +2,8 @@ Code for "Towards cross-lingual distributed representations without parallel tex
 
 Antonio Valerio Miceli Barone
 
+arXiv: https://arxiv.org/abs/1608.02996
+
 Requires:
 
 Theano http://deeplearning.net/software/theano/
